@@ -29,13 +29,13 @@ variable "container_port" {
 variable "hosted_zone_id" {
   type        = string
   description = "Route 53 Hosted Zone ID"
-  default     = "kept blank for security purpose" # Replace with your hosted zone ID
+  default     = "Z06607023RJWXGXD2ZL6M" # Replace with your hosted zone ID
 }
 
 variable "domain_name" {
   type        = string
   description = "Domain name for the Strapi application"
-  default     = "kept blank for security puprpose" # Replace with your subdomain
+  default     = "shaikfouziabanu.contentecho.in" # Replace with your subdomain
 }
 
 variable "availability_zones" {
