@@ -1,0 +1,1 @@
+# strapi4-ecs-terraform
